@@ -3,8 +3,9 @@ import './Product.css'
 
 
 const Product = (props) => {
-    console.log(props.product);
+   // console.log(props);
     const {id, name,img,ratings,price, seller} = props.product;
+    const handleAddToCart = props.handleAddToCart;
     return (
         <div className='product-items'>
            <img src={img} alt="" />
@@ -14,7 +15,7 @@ const Product = (props) => {
                 <p>Manufacturer : {seller}</p>
                 <p>Rating: {ratings}</p>
             </div>
-            <button className='cart-btn'>AddToCart</button>
+            <button onClick={() => handleAddToCart(props.product)} className='cart-btn'>AddToCart</button>
         </div>
     );
 };

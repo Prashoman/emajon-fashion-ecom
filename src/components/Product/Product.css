@@ -19,6 +19,7 @@
     padding: 8px 10px;
     border: 1px solid #95A0A7;
     bottom: 0;
+    cursor: pointer;
 }
 .product-items h3 , p{
     margin-top: 8px;
