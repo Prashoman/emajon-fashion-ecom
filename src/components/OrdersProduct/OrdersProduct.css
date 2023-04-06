@@ -1,0 +1,36 @@
+.OrderProducts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 570px;
+    height: 107px;
+    border: 1px solid #95A0A7;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    padding: 7px;
+}
+.OrderProducts img{
+    width: 91px;
+    height: 91px;
+}
+.order-Items{
+    flex-grow: 1;
+   
+}
+.order-Items,h3,p,h4{
+    padding:0;
+    margin:0;   
+}
+.deleted-btn{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: rgba(235, 87, 87, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.delete-icon{
+    color: #EB5757;
+    font-size: 27px;
+}
