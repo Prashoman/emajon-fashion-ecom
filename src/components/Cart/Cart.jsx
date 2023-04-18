@@ -2,8 +2,9 @@ import React from 'react';
 import './Cart.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrashAlt } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 
-const Cart = ({ cart }) => {
+const Cart = ({ cart,children }) => {
     // const cart = props.cart; // option 1
     // const {cart} = props; // option 2
 
@@ -36,6 +37,7 @@ const Cart = ({ cart }) => {
             <h6>Grand Total: ${grandTotal.toFixed(2)} </h6>
             <button className='clear-cart'>Clear Cart
             <FontAwesomeIcon  icon={faTrashAlt} /></button>
+            {children}
         </div>
     );
 };

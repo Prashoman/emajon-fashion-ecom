@@ -14,3 +14,17 @@
     background-color: #FF3030;
     font-size: 16px;
 }
+.checkout{
+    margin-top: 4px;
+    display: flex;
+    width: 100%;
+    height: 48px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #939b4c;
+    font-size: 16px;
+}
+.proceed-link{
+    text-decoration: none;
+}
